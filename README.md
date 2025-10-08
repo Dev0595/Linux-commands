@@ -69,16 +69,56 @@
     Ex: cat head -n 5 file.txt
     "This will display the first five lines in the textfile without counting spaces
 
+    Ex: cat head -5 file.txt
+    "This will display the first five lines of the text including spaces.
+
 13. To check users list
 
     cat /etc/passwd
     "You will see the list of users created"
 
-14.
+14. To excute a file in Linux
 
-    Ex: cat head -5 file.txt
-    "This will display the first five lines of the text including spaces.
+     ./file-name
 
-15. 
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  *File Permission*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*
+
+*U- User*
+*G- Group*
+_O- Other_
+
+*r- Read*      *W- Write*   *X- Excute*
+
+1. To modify the r(Read) w(write) x(Excute) permission of a file to a *user*?
+
+   Chmod u=rwx file-name
+
+   Ex: chmod u=rwx print.sh
+
+2. To modify only r(Read)  W(write) permission of a file to user?
+
+   chmod u=rw file-name
+
+   Ex: Chmod u=rw print.sh
+
+3. To modify read(r) write(w) x(excute) permission ofa file to *group*?
+
+   chmod g=rwx file-name
+
+   Ex: chmod g=rwx print.sh
+
+4. To modify read(r) write(w) x(excute) permission ofa file to *Other*?
+
+   chmod o=rwx file-name
+
+   Ex: chmod 0=rwx print.sh
+
+  
+6. 
+
+
+
+
+    
 
 

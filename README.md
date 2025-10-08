@@ -69,9 +69,16 @@
     Ex: cat head -n 5 file.txt
     "This will display the first five lines in the textfile without counting spaces
 
+13. To check users list
+
+    cat /etc/passwd
+    "You will see the list of users created"
+
+14.
+
     Ex: cat head -5 file.txt
     "This will display the first five lines of the text including spaces.
 
-13. 
+15. 
 
 

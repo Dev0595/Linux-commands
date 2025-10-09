@@ -50,39 +50,58 @@
 9. To copy a file from one home directory to another directory?
 
    cp /home/source-dir/filename /home/target-dir/
+   
 
    Ex: cp /home/aariz/file.txt /home/linuxdev/
    
 
-10. To move a file
+11. To move a file
 
    Mv /home/source-dir/filename /home/target-dir/
+
+   
    Ex: mv /home/aariz/file2.txt /home/linuxdev/
    
 
 11. To view a file
 
     cat file_name
+
+
     Ex: Cat file.txt
 
-12. To display first few lines of text in a file?
+13. To display first few lines of text in a file?
 
     cat head -n file-name
+    
     Ex: cat head -n 5 file.txt
     "This will display the first five lines in the textfile without counting spaces
 
     Ex: cat head -5 file.txt
     "This will display the first five lines of the text including spaces.
 
-13. To check users list
+15. To check users list
 
     cat /etc/passwd
     "You will see the list of users created"
 
 
-14. To excute a file in Linux
+16. To excute a file in Linux
 
      ./file-name
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**aariz@Areef:/home$**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                      
+                        
+                        ****The above path is explained in detail below****
+                  - aariz → This is the username you're logged in as.
+                 - Areef → This is the hostname of the computer or virtual machine.
+                - /home → This is your current working directory — you're inside the /home folder.
+               - $ → This symbol means you're a regular user (not root). If it were #, you'd be root.
+
+
+
 
 **!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  **File Permission**  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
@@ -90,7 +109,7 @@
 
     *U- User*
     *G- Group*
-    _O- Other_
+    *O- Other*
 
 
 

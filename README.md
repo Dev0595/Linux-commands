@@ -52,11 +52,13 @@
    cp /home/source-dir/filename /home/target-dir/
 
    Ex: cp /home/aariz/file.txt /home/linuxdev/
+   
 
 10. To move a file
 
    Mv /home/source-dir/filename /home/target-dir/
    Ex: mv /home/aariz/file2.txt /home/linuxdev/
+   
 
 11. To view a file
 
@@ -78,7 +80,7 @@
     "You will see the list of users created"
 
 
-15. To excute a file in Linux
+14. To excute a file in Linux
 
      ./file-name
 
@@ -132,8 +134,37 @@ __Numeric Values of rwx__
 
     Ex: chmod 0=rwx print.sh
 
-  
-6. 
+    5. To modify read(r) write(w) x(Excute) permission of a file to User, Group, Other?
+
+    chmod u=rwx,g=rwx,o=rwx file-name
+
+    Ex: chmod u=rwx,g=rwx,o=rwx print.sh
+
+
+    6. To modify read,write, and Excute permission of a file to user, group, and Other using numeric values?
+
+    Chmod 777 file-name
+
+    Ex: chmod 777 print.sh
+
+
+    7. To modify read permission of a file to user, group, and Other using numeric?
+
+    chmod 444 file-name
+
+    Ex: chmod 444 print.sh
+
+    8. To modify (read, write) (read) (read) permission of a file to (user) (Group) (Other)?
+
+    chmod 644 file-name
+
+    Ex: chmod 644 print.sh
+
+    9. To modify only read permission of a file to user and no permissions to group and others?
+
+    chmod 400 file-name
+
+    Ex: chmod 400 print.sh
 
 
 

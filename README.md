@@ -77,41 +77,60 @@
     cat /etc/passwd
     "You will see the list of users created"
 
-14. To excute a file in Linux
+
+15. To excute a file in Linux
 
      ./file-name
 
-*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  *File Permission*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*
+**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  **File Permission**  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
-*U- User*
-*G- Group*
-_O- Other_
 
-*r- Read*      *W- Write*   *X- Excute*
 
-1. To modify the r(Read) w(write) x(Excute) permission of a file to a *user*?
+    *U- User*
+    *G- Group*
+    _O- Other_
 
-   Chmod u=rwx file-name
 
-   Ex: chmod u=rwx print.sh
 
-2. To modify only r(Read)  W(write) permission of a file to user?
+    *r- Read*      *W- Write*   *X- Excute*
 
-   chmod u=rw file-name
 
-   Ex: Chmod u=rw print.sh
 
-3. To modify read(r) write(w) x(excute) permission ofa file to *group*?
+__Numeric Values of rwx__
 
-   chmod g=rwx file-name
 
-   Ex: chmod g=rwx print.sh
+    *r- 4*
+    
+    *w- 2*
+    
+    *x- 1*
 
-4. To modify read(r) write(w) x(excute) permission ofa file to *Other*?
+**Commands**
 
-   chmod o=rwx file-name
 
-   Ex: chmod 0=rwx print.sh
+     1. To modify the r(Read) w(write) x(Excute) permission of a file to a *user*?
+
+       Chmod u=rwx file-name
+
+       Ex: chmod u=rwx print.sh
+
+    2. To modify only r(Read)  W(write) permission of a file to user?
+
+     chmod u=rw file-name
+
+     Ex: Chmod u=rw print.sh
+
+    3. To modify read(r) write(w) x(excute) permission ofa file to *group*?
+
+    chmod g=rwx file-name
+
+    Ex: chmod g=rwx print.sh
+
+    4. To modify read(r) write(w) x(excute) permission ofa file to *Other*?
+
+    chmod o=rwx file-name
+
+    Ex: chmod 0=rwx print.sh
 
   
 6. 

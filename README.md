@@ -191,6 +191,51 @@ __Numeric Values of rwx__
     Chown newuser:new group file-name  Note: Ownership can be chnaged from root access only
 
     Ex: chown aariz:aariz modify.sh
+
+
+To check the List of Process?
+
+ **Ps**
+
+ To check all the process running background?
+
+ 
+ **ps aux** ---> **This will display with %CPU %Mem utilization**
+
+ **ps -ef** ---> **This will not display the %CPU %Mem utilization**
+
+ To check the number of process of running?
+
+**ps aux | nl**
+
+ **The pipe symbol will execute the output of before command**
+
+ To check the count of process running
+ 
+ **ps aux | wc -l**
+
+ Ex: it wil display only the number like "32"
+
+ To check the a process using filter search?
+
+ **ps aux  | grep search-name**
+
+ Ex: ps aux | grep java ( This is command to fetch java process)
+
+ To kill a process?
+
+ **Kill PId**
+
+ Ex: kill 28756
+
+ 
+ To kill a process forcefully ?
+
+ **kill -9 Pid**
+
+ 
+
+ 
     
 
 

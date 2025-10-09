@@ -186,6 +186,14 @@ __Numeric Values of rwx__
     Ex: chmod 400 print.sh
 
 
+    10. To chnage ownership of a file?
+
+    Chown newuser:new group file-name  Note: Ownership can be chnaged from root access only
+
+    Ex: chown aariz:aariz modify.sh
+    
+
+
 
 
     

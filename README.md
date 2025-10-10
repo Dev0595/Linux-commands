@@ -41,18 +41,43 @@
 
    Ex: `mkdir devops`
 
-8. To create a file
+8. To create a nested directories?
+
+    `mkdir -p file1/file2/file3/file4`
+
+`root@Areef:/# cd file1`
+
+`root@Areef:/file1# ls`
+
+`file2`
+
+`root@Areef:/file1# cd file2`
+
+`root@Areef:/file1/file2# ls`
+
+`file3`
+
+`root@Areef:/file1/file2# cd file3`
+
+`root@Areef:/file1/file2/file3# ls`
+
+`file4`
+
+`root@Areef:/file1/file2/file3`
+
+
+10. To create a file
 
    `touch file_name`
 
    Ex: `touch file1.txt`
 
-9. To create a multiple files using single command?
+11. To create a multiple files using single command?
 
       `touch script.sh{1..9}`
 
 
-11. To copy a file from one home directory to another directory?
+12. To copy a file from one home directory to another directory?
 
    `cp /home/source-dir/filename /home/target-dir/`
    

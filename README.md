@@ -47,7 +47,12 @@
 
    Ex: `touch file1.txt`
 
-9. To copy a file from one home directory to another directory?
+9. To create a multiple files using single command?
+
+      `touch script.sh{1..9}`
+
+
+11. To copy a file from one home directory to another directory?
 
    `cp /home/source-dir/filename /home/target-dir/`
    

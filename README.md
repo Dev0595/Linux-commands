@@ -235,7 +235,45 @@ To check the List of Process?
 
 To stop a running process?
 
- - `kill -STOP PID` – Stop a running process
+  `kill -STOP PID` – Stop a running process
+
+To Resume a stopeed process?
+
+ `kill -CONT PID`
+
+ To check all the service running?
+
+ `systemctl list-units --type=service`
+
+ ----->shows all type of service active,inactive and failed
+
+ To stop a service?
+
+ `systemctl stop service-name`
+
+ To start a serive?
+
+ `systemctl start service-name`
+
+ To enable a service at startup
+
+ `systemctl enable service-name`
+
+##Monitoring Commands !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+To check real time monitoring?
+`top`
+
+To check graphical real time monitoring
+`htop`
+
+To check memory usage?
+`free -h or free -m`
+
+To check disk space usage
+`df -h`  or `du -sh *`
+
+
 
  
 

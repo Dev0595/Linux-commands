@@ -16,6 +16,8 @@
     `Sudo usermod -l newname oldname`
 
    Ex: `Sudo usermod -l aariz1 aariz`
+
+   Note:`before changing username check if any process are running, if the proecess are running kill those first and change the username`
    
 4. 	To delete an existing user?
 

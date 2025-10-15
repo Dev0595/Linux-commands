@@ -120,6 +120,12 @@
 
      `./file-name`
 
+17. Add an existing user to sudo access group?
+
+    `sudo usermod -aG sudo username`
+
+    Ex: `sudo usermod -aG sudo test`
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**aariz@Areef:/home$**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                       

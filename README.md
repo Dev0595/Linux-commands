@@ -128,6 +128,11 @@
 
     Ex: `sudo usermod -aG sudo test`
 
+18. To check OS version
+
+     `cat /etc/os-release`
+    
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**aariz@Areef:/home$**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                       
